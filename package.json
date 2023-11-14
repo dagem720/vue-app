@@ -1,0 +1,36 @@
+{
+  "name": "tiptap-vuetify-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "resolutions": {
+    "prosemirror-model": "1.8.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "core-js": "^3.4.4",
+    "sass": "^1.25.0",
+    "tiptap-vuetify": "2.23.0",
+    "vue": "^2.6.10",
+    "vue-gtag": "^1.6.1",
+    "vue-router": "^3.1.3",
+    "vuetify": "^2.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-router": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "^2.0.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
